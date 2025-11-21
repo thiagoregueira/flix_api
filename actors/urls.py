@@ -1,0 +1,9 @@
+from django.urls import path
+
+from . import views
+
+
+urlpatterns = [
+    path('actors/', views.ActorListCreateView.as_view(), name='actors-list-create'),
+    path('actors/<int:pk>/', views.ActorRetrieveUpdateDestroyView.as_view(), name='actors-retrieve-update-destroy'),
+]
