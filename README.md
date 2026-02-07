@@ -95,20 +95,14 @@ Alternativa (Redoc): `http://127.0.0.1:8000/api/schema/redoc/`
 A API utiliza autenticação via Token JWT. Para acessar os endpoints protegidos, você precisa obter um token `access`.
 
 ### Usuário de Teste (Exemplo)
-Você pode usar as credenciais abaixo para testar.
+Você pode usar as credenciais abaixo para testar a API (já configurados em produção):
 
-**Ambiente Docker / Produção (Superusuário Automático):**
-| Campo | Valor |
-| :--- | :--- |
-| **Username** | `admin` |
-| **Password** | `admin123` |
-
-**Ambiente Local (Desenvolvimento):**
-Se carregou o `initial_data.json`:
-| Campo | Valor |
-| :--- | :--- |
-| **Username** | `usuarioteste` |
-| **Password** | `@123456@` |
+| Campo | Valor | Observação |
+| :--- | :--- | :--- |
+| **Username** | `usuarioteste` | Usuário comum para consumo da API |
+| **Password** | `@123456@` | |
+| **Username** | `admin` | Superusuário (Painel Administrativo) |
+| **Password** | `admin123` | Acesso total ao sistema |
 
 ### Passo a passo para autenticar no Swagger:
 1.  Acesse o endpoint `POST /api/v1/authentication/token/` no Swagger.
