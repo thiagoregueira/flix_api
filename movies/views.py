@@ -1,6 +1,7 @@
 from django.db.models.aggregates import Count, Avg
 from rest_framework import generics, views, response, status
 from rest_framework.permissions import IsAuthenticated
+from drf_spectacular.utils import extend_schema_view, extend_schema
 
 from movies.models import Movie
 from reviews.models import Review
@@ -8,6 +9,10 @@ from movies.serializers import MovieModelSerializer, MovieListDetailSerializer
 from app.permissions import GlobalPermission
 
 
+@extend_schema_view(
+    get=extend_schema(summary='Listar os filmes', tags=['Filmes']),
+    post=extend_schema(summary='Criar novo filme', tags=['Filmes']),
+)
 class MovieListCreateView(generics.ListCreateAPIView):
     permission_classes = [IsAuthenticated, GlobalPermission]
     queryset = Movie.objects.all()
@@ -18,6 +23,12 @@ class MovieListCreateView(generics.ListCreateAPIView):
         return MovieModelSerializer
 
 
+@extend_schema_view(
+    get=extend_schema(summary='Obter detalhes do filme', tags=['Filmes']),
+    put=extend_schema(summary='Atualizar dados do filme', tags=['Filmes']),
+    patch=extend_schema(summary='Atualizar parcialmente dados do filme', tags=['Filmes']),
+    delete=extend_schema(summary='Excluir filme', tags=['Filmes']),
+)
 class MovieRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = [IsAuthenticated, GlobalPermission]
     queryset = Movie.objects.all()
@@ -28,6 +39,7 @@ class MovieRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
         return MovieModelSerializer
 
 
+@extend_schema(summary='Obter estatísticas dos filmes', tags=['Filmes'])
 class MovieStatsView(views.APIView):
     permission_classes = [IsAuthenticated, GlobalPermission]
     queryset = Movie.objects.all()

@@ -4,18 +4,29 @@
 # from django.views.decorators.csrf import csrf_exempt
 from rest_framework import generics
 from rest_framework.permissions import IsAuthenticated
+from drf_spectacular.utils import extend_schema_view, extend_schema
 
 from genres.models import Genre
 from genres.serializers import GenreSerializer
 from app.permissions import GlobalPermission
 
 
+@extend_schema_view(
+    get=extend_schema(summary='Listar os gêneros', tags=['Gêneros']),
+    post=extend_schema(summary='Criar novo gênero', tags=['Gêneros']),
+)
 class GenreListCreateView(generics.ListCreateAPIView):
     permission_classes = [IsAuthenticated, GlobalPermission]
     queryset = Genre.objects.all()
     serializer_class = GenreSerializer
 
 
+@extend_schema_view(
+    get=extend_schema(summary='Obter detalhes do gênero', tags=['Gêneros']),
+    put=extend_schema(summary='Atualizar dados do gênero', tags=['Gêneros']),
+    patch=extend_schema(summary='Atualizar parcialmente dados do gênero', tags=['Gêneros']),
+    delete=extend_schema(summary='Excluir gênero', tags=['Gêneros']),
+)
 class GenreRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = [IsAuthenticated, GlobalPermission]
     queryset = Genre.objects.all()
