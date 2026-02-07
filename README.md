@@ -59,6 +59,12 @@ Crie o banco de dados e as tabelas necessárias:
 python manage.py migrate
 ```
 
+### 5. Carregar dados iniciais (Opcional)
+Para popular o banco com filmes, gêneros e usuários de demonstração:
+```bash
+python manage.py loaddata initial_data.json
+```
+
 ### 5. Criar superusuário (Opcional)
 Para acessar o admin do Django:
 ```bash
