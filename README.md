@@ -95,8 +95,16 @@ Alternativa (Redoc): `http://127.0.0.1:8000/api/schema/redoc/`
 A API utiliza autenticação via Token JWT. Para acessar os endpoints protegidos, você precisa obter um token `access`.
 
 ### Usuário de Teste (Exemplo)
-Você pode usar as credenciais abaixo para testar (ou criar um novo usuário):
+Você pode usar as credenciais abaixo para testar.
 
+**Ambiente Docker / Produção (Superusuário Automático):**
+| Campo | Valor |
+| :--- | :--- |
+| **Username** | `admin` |
+| **Password** | `admin123` |
+
+**Ambiente Local (Desenvolvimento):**
+Se carregou o `initial_data.json`:
 | Campo | Valor |
 | :--- | :--- |
 | **Username** | `usuarioteste` |
