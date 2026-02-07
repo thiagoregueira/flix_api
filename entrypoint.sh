@@ -1,13 +1,14 @@
 #!/bin/bash
 set -e
 
-# Rodar migrações
+echo "Aplicando migrações..."
 python manage.py migrate
 
-# Tentar carregar dados iniciais só se o usuário pedir ou se o banco parecer vazio 
-# (simples tentaiva, se falhar, continua)
-python manage.py loaddata initial_data.json || echo "Dados já existentes ou erro ao carregar."
+echo "Carregando dados iniciais..."
+python manage.py loaddata initial_data.json || echo "Aviso: Falha ao carregar initial_data.json. Talvez os dados já existam."
 
-# Iniciar Gunicorn
-# Ajuste o número de workers conforme necessário (2 * CPU + 1)
+echo "Garantindo superusuário..."
+python create_superuser.py || echo "Aviso: Falha ao criar superusuário."
+
+echo "Iniciando servidor com Gunicorn..."
 exec gunicorn app.wsgi:application --bind 0.0.0.0:8000 --workers 3
