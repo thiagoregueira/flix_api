@@ -1,702 +1,702 @@
 [
-{
-  "model": "admin.logentry",
-  "pk": 1,
-  "fields": {
-    "action_time": "2025-11-18T21:50:11.174Z",
-    "user": 1,
-    "content_type": 4,
-    "object_id": "2",
-    "object_repr": "usuarioteste",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2025-11-18T21:50:11.174Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "usuarioteste",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2025-11-18T21:51:11.211Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "usuarioteste",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2025-11-19T21:41:31.799Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "usuarioteste",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2025-11-19T21:46:42.650Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "usuarioteste",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2025-11-19T22:17:15.682Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "usuarioteste",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2025-11-19T22:38:27.412Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "only_views",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2025-11-19T22:39:10.148Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "testeusuario2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2025-11-19T22:39:41.694Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "testeusuario2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2025-11-19T22:41:56.290Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "testeusuario2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2025-11-19T22:42:06.223Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "usuarioteste",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2025-11-19T22:45:28.790Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "acesso_completo_as_entidades",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2025-11-19T22:46:02.768Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "usuarioteste",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\", \"User permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2025-11-20T18:22:14.542Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "21",
+      "object_repr": "Leonardo DiCaprio",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2025-11-20T18:22:14.542Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "25",
+      "object_repr": "Wagner Moura",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "only_views",
+      "permissions": [
+        32,
+        28,
+        36,
+        40
+      ]
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 2,
+    "fields": {
+      "name": "acesso_completo_as_entidades",
+      "permissions": [
+        29,
+        30,
+        31,
+        32,
+        25,
+        26,
+        27,
+        28,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$G4culwS3cLJ9k7Ui2whvus$8eYDSh1ksDhM/kQLqzHAuqS87MWhvcXkMdp0us7nhgM=",
+      "last_login": "2025-11-18T21:49:19.067Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@email.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-11-18T21:45:45.792Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$VGMxvOKf7iDUXq8akdmTmA$FzBENzB7RtKj+uIJgd6Z6qpO8HjvPk4922VCpTlF2Uc=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "usuarioteste",
+      "first_name": "@123456@",
+      "last_name": "@123456@",
+      "email": "teste@email.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-11-18T21:50:10Z",
+      "groups": [
+        2
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$8hd652iLL2x6SitY8eLf00$Wet00e010Z13nQBAA0FNXsFyO8vDgjm6mxP0W867ToU=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "testeusuario2",
+      "first_name": "@123456@",
+      "last_name": "@123456@",
+      "email": "teste2@email.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-11-19T22:39:09Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$CMqvpviHWPVY2fpXpFKZYN$HcYaYgIjkfyQGHkn8lBdglliUA/QVXkt+X1Aa4MdXaw=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "admin_test",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2026-02-07T15:56:25.930Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "4uv4mge8mlm6rjta1usvqitp1ugsh79l",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2pAChYJL9z0DGYYZqRqalHZlvLtt0oVu_3vvv0WEbS1xa7TEKYurUOLyuyXAJ9UD5AfU-yxxrusyJXko8qRNjnOm1-10_w4KtLLXPXsPbJVB44LOxDBYT5ZZedN3qIaknaKAmhgVOR_Yad-llM3uELD4fAHtKDiq:1vLTZf:UNbVdFLEWzUQ1E6EY7YX99mBQisTfd9_2pCCBU4kqWI",
+      "expire_date": "2025-12-02T21:49:19.071Z"
+    }
+  },
+  {
+    "model": "genres.genre",
+    "pk": 1,
+    "fields": {
+      "name": "A√ß√£o"
+    }
+  },
+  {
+    "model": "genres.genre",
+    "pk": 2,
+    "fields": {
+      "name": "Fic√ß√£o cient√≠fica"
+    }
+  },
+  {
+    "model": "genres.genre",
+    "pk": 3,
+    "fields": {
+      "name": "Drama"
+    }
+  },
+  {
+    "model": "genres.genre",
+    "pk": 4,
+    "fields": {
+      "name": "Suspense"
+    }
+  },
+  {
+    "model": "genres.genre",
+    "pk": 5,
+    "fields": {
+      "name": "Terror"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 1,
+    "fields": {
+      "name": "Leonardo Di Caprio",
+      "birthday": "1974-11-11",
+      "nationality": "USA"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 2,
+    "fields": {
+      "name": "Arnold Alois Schwarzenegger",
+      "birthday": "1947-07-30",
+      "nationality": "AUSTRIA"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 3,
+    "fields": {
+      "name": "Carl Weathers",
+      "birthday": "1948-01-14",
+      "nationality": "USA"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 4,
+    "fields": {
+      "name": "Elpidia Carrillo",
+      "birthday": "1961-08-16",
+      "nationality": "MEXICO"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 5,
+    "fields": {
+      "name": "Bill Duke",
+      "birthday": "1943-02-26",
+      "nationality": "USA"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 6,
+    "fields": {
+      "name": "Kate Elizabeth Winslet",
+      "birthday": "1985-10-05",
+      "nationality": "UK"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 7,
+    "fields": {
+      "name": "Sylvester Stallone",
+      "birthday": "1946-07-06",
+      "nationality": "USA"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 8,
+    "fields": {
+      "name": "Jason Statham",
+      "birthday": "1967-07-26",
+      "nationality": "UK"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 9,
+    "fields": {
+      "name": "Jet Li",
+      "birthday": "1963-04-26",
+      "nationality": "CHINA"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 10,
+    "fields": {
+      "name": "Bruce Willis",
+      "birthday": "1955-03-19",
+      "nationality": "GERMANY"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 11,
+    "fields": {
+      "name": "Terry Crews",
+      "birthday": "1968-07-30",
+      "nationality": "USA"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 12,
+    "fields": {
+      "name": "Tom Hanks",
+      "birthday": "1956-07-09",
+      "nationality": "USA"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 13,
+    "fields": {
+      "name": "Julia Roberts",
+      "birthday": "1967-10-28",
+      "nationality": "USA"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 14,
+    "fields": {
+      "name": "Wagner Moura",
+      "birthday": "1976-06-27",
+      "nationality": "BRAZIL"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 15,
+    "fields": {
+      "name": "Sandra Bullock",
+      "birthday": "1964-07-26",
+      "nationality": "USA"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 16,
+    "fields": {
+      "name": "Gisele B√ºndchen",
+      "birthday": "1980-07-20",
+      "nationality": "BRAZIL"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 17,
+    "fields": {
+      "name": "Denzel Washington",
+      "birthday": "1954-12-28",
+      "nationality": "USA"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 18,
+    "fields": {
+      "name": "Camila Mendes",
+      "birthday": "1994-06-29",
+      "nationality": "BRAZIL"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 19,
+    "fields": {
+      "name": "Brad Pitt",
+      "birthday": "1963-12-18",
+      "nationality": "USA"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 20,
+    "fields": {
+      "name": "Fernanda Montenegro",
+      "birthday": "1929-10-16",
+      "nationality": "BRAZIL"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 22,
+    "fields": {
+      "name": "Chris Evans",
+      "birthday": "1981-06-13",
+      "nationality": "USA"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 23,
+    "fields": {
+      "name": "Gloria Pires",
+      "birthday": "1963-08-23",
+      "nationality": "BRAZIL"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 24,
+    "fields": {
+      "name": "Meryl Streep",
+      "birthday": "1949-06-22",
+      "nationality": "USA"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 26,
+    "fields": {
+      "name": "Robert Downey Jr.",
+      "birthday": "1965-04-04",
+      "nationality": "USA"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 27,
+    "fields": {
+      "name": "Ta√≠s Ara√∫jo",
+      "birthday": "1978-11-25",
+      "nationality": "BRAZIL"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 28,
+    "fields": {
+      "name": "Matt Damon",
+      "birthday": "1970-10-08",
+      "nationality": "USA"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 29,
+    "fields": {
+      "name": "Cau√£ Reymond",
+      "birthday": "1980-05-20",
+      "nationality": "BRAZIL"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 30,
+    "fields": {
+      "name": "Angelina Jolie",
+      "birthday": "1975-06-04",
+      "nationality": "USA"
+    }
+  },
+  {
+    "model": "actors.actor",
+    "pk": 31,
+    "fields": {
+      "name": "Rodrigo Santoro",
+      "birthday": "1975-08-22",
+      "nationality": "BRAZIL"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1,
+    "fields": {
+      "title": "O Predador",
+      "genre": 1,
+      "release_date": "1987-07-30",
+      "resume": "Dutch √© contratado pelo governo dos Estados Unidos para resgatar pol√≠ticos presos na Guatemala. Mas quando ele e sua equipe chegam na Am√©rica Central, logo percebem que h√° algo errado. Depois de descobrir v√°rios cad√°veres, a equipe descobre que est√° sendo ca√ßada por uma criatura brutal com for√ßa sobre-humana e uma capacidade surpreendente de se camuflar.",
+      "actors": [
+        2,
+        5,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 2,
+    "fields": {
+      "title": "Titanic",
+      "genre": 3,
+      "release_date": "1998-01-16",
+      "resume": "Um artista pobre e uma jovem rica se conhecem e se apaixonam na fat√≠dica viagem inaugural do Titanic em 1912. Embora esteja noiva do arrogante herdeiro de uma sider√∫rgica, a jovem desafia sua fam√≠lia e amigos em busca do verdadeiro amor.",
+      "actors": [
+        6,
+        1
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 3,
+    "fields": {
+      "title": "Os Mercen√°rios",
+      "genre": 1,
+      "release_date": "2010-08-13",
+      "resume": "Um grupo de mercen√°rios, liderado por Barney Ross e composto de seus homens de confian√ßa, aceita uma miss√£o que parece ser rotineira: uma opera√ß√£o secreta, a mando da Igreja, para invadir o pa√≠s sul-americano de Vilena e derrubar seu ditador. N√£o demora muito para o grupo perceber que a miss√£o √© uma opera√ß√£o suicida. Presos em uma perigosa teia de trai√ß√µes, mas sabendo que um inocente est√° em perigo, Barney e seus homens decidem finalizar o trabalho.",
+      "actors": [
+        8,
+        9,
+        7,
+        11
+      ]
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 1,
+    "fields": {
+      "movie": 1,
+      "stars": 5,
+      "comment": "O Predador √© um cl√°ssico dos anos 80. Um filme muito bem produzido, com uma hist√≥ria fant√°stica e revolucion√°ria para os anos 80. Filme bem diferente, interessante e marcante para muitas pessoas. O elenco √© bem razo√°vel, com destaque para Arnold Schwarzenegger, a grande estrela do filme, com uma atua√ß√£o impec√°vel. O filme te prende do in√≠cio ao fim com muita a√ß√£o. Recomendo assistir, o filme √© uma obra-prima dos anos 80."
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 2,
+    "fields": {
+      "movie": 1,
+      "stars": 5,
+      "comment": "Excelente. √â o tipo de filme que nunca canso de assitir. Emo√ß√£o do in√≠cio ao fim! \"O demonio que faz dos homens seus trof√©us\". Perfeito! Mesmo com recurso visuais limitados para a √©poca, provou que se pode fazer um bom filme sem os efeitos especiais atuais. O segundo tamb√©m √© bom."
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 3,
+    "fields": {
+      "movie": 1,
+      "stars": 5,
+      "comment": ""
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 4,
+    "fields": {
+      "movie": 2,
+      "stars": 5,
+      "comment": "Filme cl√°ssico, memor√°vel e um dos melhores de todos os tempos, sempre ficar√° marcado. Baseado em uma hist√≥ria real, o filme √© muito emocionante e envolvente. Elenco excelente, com destaque para Leonardo DiCaprio, com uma atua√ß√£o impec√°vel e memor√°vel, e tamb√©m uma excelente atua√ß√£o de Kate Winslet. Vale muito a pena assistir."
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 5,
+    "fields": {
+      "movie": 2,
+      "stars": 4,
+      "comment": "√â daqueles filmes que pode passar 500 mil vezes na tv as 500 mil vezes vou assistir. Fotografia, Interpreta√ß√µes, Elenco, Cen√°rio, Trilha sonora, tudo perfeito, nem tem o que falar, esse filme vai ficar na historia, quem assistiu sabe o que to falando e quem n√£o assistiu.. opa ser√° que tem algu√©m que nunca assistiu? =o se tiver.. n√£o sabe a obra prima que ta perdendo xd"
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 6,
+    "fields": {
+      "movie": 2,
+      "stars": 4,
+      "comment": ""
+    }
   }
-},
-{
-  "model": "admin.logentry",
-  "pk": 2,
-  "fields": {
-    "action_time": "2025-11-18T21:51:11.211Z",
-    "user": 1,
-    "content_type": 4,
-    "object_id": "2",
-    "object_repr": "usuarioteste",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 3,
-  "fields": {
-    "action_time": "2025-11-19T21:41:31.799Z",
-    "user": 1,
-    "content_type": 4,
-    "object_id": "2",
-    "object_repr": "usuarioteste",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 4,
-  "fields": {
-    "action_time": "2025-11-19T21:46:42.650Z",
-    "user": 1,
-    "content_type": 4,
-    "object_id": "2",
-    "object_repr": "usuarioteste",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 5,
-  "fields": {
-    "action_time": "2025-11-19T22:17:15.682Z",
-    "user": 1,
-    "content_type": 4,
-    "object_id": "2",
-    "object_repr": "usuarioteste",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 6,
-  "fields": {
-    "action_time": "2025-11-19T22:38:27.412Z",
-    "user": 1,
-    "content_type": 3,
-    "object_id": "1",
-    "object_repr": "only_views",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 7,
-  "fields": {
-    "action_time": "2025-11-19T22:39:10.148Z",
-    "user": 1,
-    "content_type": 4,
-    "object_id": "3",
-    "object_repr": "testeusuario2",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 8,
-  "fields": {
-    "action_time": "2025-11-19T22:39:41.694Z",
-    "user": 1,
-    "content_type": 4,
-    "object_id": "3",
-    "object_repr": "testeusuario2",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"Groups\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 9,
-  "fields": {
-    "action_time": "2025-11-19T22:41:56.290Z",
-    "user": 1,
-    "content_type": 4,
-    "object_id": "3",
-    "object_repr": "testeusuario2",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 10,
-  "fields": {
-    "action_time": "2025-11-19T22:42:06.223Z",
-    "user": 1,
-    "content_type": 4,
-    "object_id": "2",
-    "object_repr": "usuarioteste",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 11,
-  "fields": {
-    "action_time": "2025-11-19T22:45:28.790Z",
-    "user": 1,
-    "content_type": 3,
-    "object_id": "2",
-    "object_repr": "acesso_completo_as_entidades",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 12,
-  "fields": {
-    "action_time": "2025-11-19T22:46:02.768Z",
-    "user": 1,
-    "content_type": 4,
-    "object_id": "2",
-    "object_repr": "usuarioteste",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Groups\", \"User permissions\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 13,
-  "fields": {
-    "action_time": "2025-11-20T18:22:14.542Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "21",
-    "object_repr": "Leonardo DiCaprio",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 14,
-  "fields": {
-    "action_time": "2025-11-20T18:22:14.542Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "25",
-    "object_repr": "Wagner Moura",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "auth.group",
-  "pk": 1,
-  "fields": {
-    "name": "only_views",
-    "permissions": [
-      32,
-      28,
-      36,
-      40
-    ]
-  }
-},
-{
-  "model": "auth.group",
-  "pk": 2,
-  "fields": {
-    "name": "acesso_completo_as_entidades",
-    "permissions": [
-      29,
-      30,
-      31,
-      32,
-      25,
-      26,
-      27,
-      28,
-      33,
-      34,
-      35,
-      36,
-      37,
-      38,
-      39,
-      40
-    ]
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 1,
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$G4culwS3cLJ9k7Ui2whvus$8eYDSh1ksDhM/kQLqzHAuqS87MWhvcXkMdp0us7nhgM=",
-    "last_login": "2025-11-18T21:49:19.067Z",
-    "is_superuser": true,
-    "username": "admin",
-    "first_name": "",
-    "last_name": "",
-    "email": "admin@email.com",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2025-11-18T21:45:45.792Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 2,
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$VGMxvOKf7iDUXq8akdmTmA$FzBENzB7RtKj+uIJgd6Z6qpO8HjvPk4922VCpTlF2Uc=",
-    "last_login": null,
-    "is_superuser": false,
-    "username": "usuarioteste",
-    "first_name": "@123456@",
-    "last_name": "@123456@",
-    "email": "teste@email.com",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2025-11-18T21:50:10Z",
-    "groups": [
-      2
-    ],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 3,
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$8hd652iLL2x6SitY8eLf00$Wet00e010Z13nQBAA0FNXsFyO8vDgjm6mxP0W867ToU=",
-    "last_login": null,
-    "is_superuser": false,
-    "username": "testeusuario2",
-    "first_name": "@123456@",
-    "last_name": "@123456@",
-    "email": "teste2@email.com",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2025-11-19T22:39:09Z",
-    "groups": [
-      1
-    ],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 4,
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$CMqvpviHWPVY2fpXpFKZYN$HcYaYgIjkfyQGHkn8lBdglliUA/QVXkt+X1Aa4MdXaw=",
-    "last_login": null,
-    "is_superuser": true,
-    "username": "admin_test",
-    "first_name": "",
-    "last_name": "",
-    "email": "admin@example.com",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2026-02-07T15:56:25.930Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "4uv4mge8mlm6rjta1usvqitp1ugsh79l",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2pAChYJL9z0DGYYZqRqalHZlvLtt0oVu_3vvv0WEbS1xa7TEKYurUOLyuyXAJ9UD5AfU-yxxrusyJXko8qRNjnOm1-10_w4KtLLXPXsPbJVB44LOxDBYT5ZZedN3qIaknaKAmhgVOR_Yad-llM3uELD4fAHtKDiq:1vLTZf:UNbVdFLEWzUQ1E6EY7YX99mBQisTfd9_2pCCBU4kqWI",
-    "expire_date": "2025-12-02T21:49:19.071Z"
-  }
-},
-{
-  "model": "genres.genre",
-  "pk": 1,
-  "fields": {
-    "name": "AÁ„o"
-  }
-},
-{
-  "model": "genres.genre",
-  "pk": 2,
-  "fields": {
-    "name": "FicÁ„o cientÌfica"
-  }
-},
-{
-  "model": "genres.genre",
-  "pk": 3,
-  "fields": {
-    "name": "Drama"
-  }
-},
-{
-  "model": "genres.genre",
-  "pk": 4,
-  "fields": {
-    "name": "Suspense"
-  }
-},
-{
-  "model": "genres.genre",
-  "pk": 5,
-  "fields": {
-    "name": "Terror"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 1,
-  "fields": {
-    "name": "Leonardo Di Caprio",
-    "birthday": "1974-11-11",
-    "nationality": "USA"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 2,
-  "fields": {
-    "name": "Arnold Alois Schwarzenegger",
-    "birthday": "1947-07-30",
-    "nationality": "AUSTRIA"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 3,
-  "fields": {
-    "name": "Carl Weathers",
-    "birthday": "1948-01-14",
-    "nationality": "USA"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 4,
-  "fields": {
-    "name": "Elpidia Carrillo",
-    "birthday": "1961-08-16",
-    "nationality": "MEXICO"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 5,
-  "fields": {
-    "name": "Bill Duke",
-    "birthday": "1943-02-26",
-    "nationality": "USA"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 6,
-  "fields": {
-    "name": "Kate Elizabeth Winslet",
-    "birthday": "1985-10-05",
-    "nationality": "UK"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 7,
-  "fields": {
-    "name": "Sylvester Stallone",
-    "birthday": "1946-07-06",
-    "nationality": "USA"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 8,
-  "fields": {
-    "name": "Jason Statham",
-    "birthday": "1967-07-26",
-    "nationality": "UK"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 9,
-  "fields": {
-    "name": "Jet Li",
-    "birthday": "1963-04-26",
-    "nationality": "CHINA"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 10,
-  "fields": {
-    "name": "Bruce Willis",
-    "birthday": "1955-03-19",
-    "nationality": "GERMANY"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 11,
-  "fields": {
-    "name": "Terry Crews",
-    "birthday": "1968-07-30",
-    "nationality": "USA"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 12,
-  "fields": {
-    "name": "Tom Hanks",
-    "birthday": "1956-07-09",
-    "nationality": "USA"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 13,
-  "fields": {
-    "name": "Julia Roberts",
-    "birthday": "1967-10-28",
-    "nationality": "USA"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 14,
-  "fields": {
-    "name": "Wagner Moura",
-    "birthday": "1976-06-27",
-    "nationality": "BRAZIL"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 15,
-  "fields": {
-    "name": "Sandra Bullock",
-    "birthday": "1964-07-26",
-    "nationality": "USA"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 16,
-  "fields": {
-    "name": "Gisele B¸ndchen",
-    "birthday": "1980-07-20",
-    "nationality": "BRAZIL"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 17,
-  "fields": {
-    "name": "Denzel Washington",
-    "birthday": "1954-12-28",
-    "nationality": "USA"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 18,
-  "fields": {
-    "name": "Camila Mendes",
-    "birthday": "1994-06-29",
-    "nationality": "BRAZIL"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 19,
-  "fields": {
-    "name": "Brad Pitt",
-    "birthday": "1963-12-18",
-    "nationality": "USA"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 20,
-  "fields": {
-    "name": "Fernanda Montenegro",
-    "birthday": "1929-10-16",
-    "nationality": "BRAZIL"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 22,
-  "fields": {
-    "name": "Chris Evans",
-    "birthday": "1981-06-13",
-    "nationality": "USA"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 23,
-  "fields": {
-    "name": "Gloria Pires",
-    "birthday": "1963-08-23",
-    "nationality": "BRAZIL"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 24,
-  "fields": {
-    "name": "Meryl Streep",
-    "birthday": "1949-06-22",
-    "nationality": "USA"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 26,
-  "fields": {
-    "name": "Robert Downey Jr.",
-    "birthday": "1965-04-04",
-    "nationality": "USA"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 27,
-  "fields": {
-    "name": "TaÌs Ara˙jo",
-    "birthday": "1978-11-25",
-    "nationality": "BRAZIL"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 28,
-  "fields": {
-    "name": "Matt Damon",
-    "birthday": "1970-10-08",
-    "nationality": "USA"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 29,
-  "fields": {
-    "name": "Cau„ Reymond",
-    "birthday": "1980-05-20",
-    "nationality": "BRAZIL"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 30,
-  "fields": {
-    "name": "Angelina Jolie",
-    "birthday": "1975-06-04",
-    "nationality": "USA"
-  }
-},
-{
-  "model": "actors.actor",
-  "pk": 31,
-  "fields": {
-    "name": "Rodrigo Santoro",
-    "birthday": "1975-08-22",
-    "nationality": "BRAZIL"
-  }
-},
-{
-  "model": "movies.movie",
-  "pk": 1,
-  "fields": {
-    "title": "O Predador",
-    "genre": 1,
-    "release_date": "1987-07-30",
-    "resume": "Dutch È contratado pelo governo dos Estados Unidos para resgatar polÌticos presos na Guatemala. Mas quando ele e sua equipe chegam na AmÈrica Central, logo percebem que h· algo errado. Depois de descobrir v·rios cad·veres, a equipe descobre que est· sendo caÁada por uma criatura brutal com forÁa sobre-humana e uma capacidade surpreendente de se camuflar.",
-    "actors": [
-      2,
-      5,
-      3,
-      4
-    ]
-  }
-},
-{
-  "model": "movies.movie",
-  "pk": 2,
-  "fields": {
-    "title": "Titanic",
-    "genre": 3,
-    "release_date": "1998-01-16",
-    "resume": "Um artista pobre e uma jovem rica se conhecem e se apaixonam na fatÌdica viagem inaugural do Titanic em 1912. Embora esteja noiva do arrogante herdeiro de uma sider˙rgica, a jovem desafia sua famÌlia e amigos em busca do verdadeiro amor.",
-    "actors": [
-      6,
-      1
-    ]
-  }
-},
-{
-  "model": "movies.movie",
-  "pk": 3,
-  "fields": {
-    "title": "Os Mercen·rios",
-    "genre": 1,
-    "release_date": "2010-08-13",
-    "resume": "Um grupo de mercen·rios, liderado por Barney Ross e composto de seus homens de confianÁa, aceita uma miss„o que parece ser rotineira: uma operaÁ„o secreta, a mando da Igreja, para invadir o paÌs sul-americano de Vilena e derrubar seu ditador. N„o demora muito para o grupo perceber que a miss„o È uma operaÁ„o suicida. Presos em uma perigosa teia de traiÁıes, mas sabendo que um inocente est· em perigo, Barney e seus homens decidem finalizar o trabalho.",
-    "actors": [
-      8,
-      9,
-      7,
-      11
-    ]
-  }
-},
-{
-  "model": "reviews.review",
-  "pk": 1,
-  "fields": {
-    "movie": 1,
-    "stars": 5,
-    "comment": "O Predador È um cl·ssico dos anos 80. Um filme muito bem produzido, com uma histÛria fant·stica e revolucion·ria para os anos 80. Filme bem diferente, interessante e marcante para muitas pessoas. O elenco È bem razo·vel, com destaque para Arnold Schwarzenegger, a grande estrela do filme, com uma atuaÁ„o impec·vel. O filme te prende do inÌcio ao fim com muita aÁ„o. Recomendo assistir, o filme È uma obra-prima dos anos 80."
-  }
-},
-{
-  "model": "reviews.review",
-  "pk": 2,
-  "fields": {
-    "movie": 1,
-    "stars": 5,
-    "comment": "Excelente. … o tipo de filme que nunca canso de assitir. EmoÁ„o do inÌcio ao fim! \"O demonio que faz dos homens seus trofÈus\". Perfeito! Mesmo com recurso visuais limitados para a Època, provou que se pode fazer um bom filme sem os efeitos especiais atuais. O segundo tambÈm È bom."
-  }
-},
-{
-  "model": "reviews.review",
-  "pk": 3,
-  "fields": {
-    "movie": 1,
-    "stars": 5,
-    "comment": ""
-  }
-},
-{
-  "model": "reviews.review",
-  "pk": 4,
-  "fields": {
-    "movie": 2,
-    "stars": 5,
-    "comment": "Filme cl·ssico, memor·vel e um dos melhores de todos os tempos, sempre ficar· marcado. Baseado em uma histÛria real, o filme È muito emocionante e envolvente. Elenco excelente, com destaque para Leonardo DiCaprio, com uma atuaÁ„o impec·vel e memor·vel, e tambÈm uma excelente atuaÁ„o de Kate Winslet. Vale muito a pena assistir."
-  }
-},
-{
-  "model": "reviews.review",
-  "pk": 5,
-  "fields": {
-    "movie": 2,
-    "stars": 4,
-    "comment": "… daqueles filmes que pode passar 500 mil vezes na tv as 500 mil vezes vou assistir. Fotografia, InterpretaÁıes, Elenco, Cen·rio, Trilha sonora, tudo perfeito, nem tem o que falar, esse filme vai ficar na historia, quem assistiu sabe o que to falando e quem n„o assistiu.. opa ser· que tem alguÈm que nunca assistiu? =o se tiver.. n„o sabe a obra prima que ta perdendo xd"
-  }
-},
-{
-  "model": "reviews.review",
-  "pk": 6,
-  "fields": {
-    "movie": 2,
-    "stars": 4,
-    "comment": ""
-  }
-}
 ]
