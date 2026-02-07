@@ -1,4 +1,4 @@
-import locale
+import unicodedata
 from django.db import models
 
 
@@ -24,8 +24,14 @@ NATIONALITY_CHOICES = (
 )
 
 # colocar em ordem alfabética(Levando em conta os acentos da língua portuguesa)
-locale.setlocale(locale.LC_ALL, 'pt_PT.UTF-8')
-NATIONALITY_CHOICES = sorted(NATIONALITY_CHOICES, key=lambda x: locale.strxfrm(x[1]))
+
+
+def normalize_for_sorting(text):
+    return unicodedata.normalize('NFKD', text).encode('ASCII', 'ignore').decode('ASCII').lower()
+
+
+# colocar em ordem alfabética(Levando em conta os acentos da língua portuguesa)
+NATIONALITY_CHOICES = sorted(NATIONALITY_CHOICES, key=lambda x: normalize_for_sorting(x[1]))
 
 
 class Actor(models.Model):
