@@ -4,7 +4,10 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularRedocView, Spec
 from app.renderers import CustomOpenApiRenderer
 
 
+from django.views.generic import RedirectView
+
 urlpatterns = [
+    path('', RedirectView.as_view(url='/api/schema/swagger-ui/', permanent=False)),
     path('admin/', admin.site.urls),
     path('api/v1/', include('authentication.urls'), name='authentication-api'),
     path('api/v1/', include('genres.urls'), name='genres-api'),
